@@ -11,5 +11,5 @@ class Employee {
         console.log("empid=" + this.empid + "emp name:" + this.empname + "emp designation:" + this.empdesignation + "emp salary:" + this.empsalary + "emp project:" + this.empproject);
     }
 }
-const emp = new Employee(1200, "karthikeyan", "developer", 25000, "java");
+let emp = new Employee(1200, "karthikeyan", "developer", 25000, "java");
 emp.getempdetail();
